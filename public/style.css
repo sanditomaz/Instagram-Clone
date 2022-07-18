@@ -182,6 +182,7 @@ body {
 
 .post .conteudo img {
   width: 100%;
+  cursor: pointer;
 }
 
 .post .fundo .acoes {

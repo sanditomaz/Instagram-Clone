@@ -41,7 +41,7 @@ return(
         </div>
 
         <div class="conteudo">
-            <img src={props.postImg}/>
+            <img onDoubleClick={()=>{if(likedHeart === "heart-outline"){setLikedHeart("heart")}}} src={props.postImg}/>
         </div>
 
         <div class="fundo">
