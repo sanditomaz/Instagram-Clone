@@ -1,3 +1,5 @@
-//alert("hiiiiiii");
+import ReactDOM from 'react-dom';
+import App from './Root/App';
 
-console.log("hiiiii youuu woow aahh")
+
+ReactDOM.render(<App />, document.querySelector('.root'));
